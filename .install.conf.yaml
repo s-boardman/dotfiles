@@ -1,0 +1,24 @@
+- defaults:
+    link:
+      create: true
+      force: true
+
+- clean: ['~']
+
+- link:
+    ~/.atom:
+    ~/.bashrc: 
+    ~/.dotfiles: ''
+    ~/.emacs.d:
+    ~/.emacs:
+    ~/.gconf:
+    ~/.gitconfig:
+    ~/.gitignore_global:
+    ~/.nano:
+    ~/.oh-my-zsh:
+    ~/.tmux.conf:
+    ~/.zsh:
+    ~/.zshrc:
+
+- shell:
+  - git update-submodules # after linking ~/.gitconfig
