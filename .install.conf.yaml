@@ -16,6 +16,7 @@
     ~/.gitignore_global:
     ~/.nano:
     ~/.oh-my-zsh:
+    ~/.profile:
     ~/.tmux.conf:
     ~/.zsh:
     ~/.zshrc:
