@@ -1,3 +1,7 @@
 [user]
 	email = simon.boardman@gmail.com
 	name = sboardman
+[credential]
+	helper = cache
+[push]
+	default = simple
