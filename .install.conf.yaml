@@ -8,6 +8,7 @@
 - link:
     ~/.atom:
     ~/.bashrc: 
+    ~/.config/ntfy:
     ~/.dotfiles: ''
     ~/.emacs.d:
     ~/.emacs:

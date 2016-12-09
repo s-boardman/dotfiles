@@ -91,3 +91,7 @@ alias pydoc='/usr/bin/pydoc3.5'
 # Virtualenvwrapper
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
+
+# ntfy
+# Shell integration
+eval "$(ntfy shell-integration)"
