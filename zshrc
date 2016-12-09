@@ -87,3 +87,7 @@ source $ZSH/oh-my-zsh.sh
 alias python='/usr/bin/python3'
 alias pygettext='/usr/bin/pygettext3.5'
 alias pydoc='/usr/bin/pydoc3.5'
+
+# Virtualenvwrapper
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+source /usr/local/bin/virtualenvwrapper.sh
