@@ -94,4 +94,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 # ntfy
 # Shell integration
-eval "$(ntfy shell-integration)"
+eval "$(ntfy shell-integration --longer-than 30)"
+
+source ~/dotfiles/local_aliases
+
