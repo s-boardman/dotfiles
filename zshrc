@@ -91,6 +91,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 # ntfy
 # Shell integration
-eval "$(ntfy shell-integration --longer-than 30)"
+eval "$(ntfy shell-integration --longer-than 30 --foreground-too)"
 
 source ~/dotfiles/local_aliases
