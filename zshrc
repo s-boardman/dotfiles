@@ -93,4 +93,10 @@ source /usr/local/bin/virtualenvwrapper.sh
 # Shell integration
 eval "$(ntfy shell-integration --longer-than 30 --foreground-too)"
 
+# todo.sh integration
+# https://github.com/ginatrapani/todo.txt-cli/wiki/Quick-Start-Guide
+alias todo="/home/sboardman/software/todo.txt_cli-2.10/todo.sh"
+source /home/sboardman/software/todo.txt_cli-2.10/todo_completion
+
+# Get computer specific aliases
 source ~/dotfiles/local_aliases
